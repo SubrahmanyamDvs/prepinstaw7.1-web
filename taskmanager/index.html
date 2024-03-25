@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Task Management</h1>
+        <p>Manage your tasks efficiently with our Task Management System</p>
+    </header>
+
+    <main>
+        <section class="task-form">
+            <h2>Create a New Task</h2>
+            <form id="taskForm">
+                <div class="form-group">
+                    <label for="courseId">Course ID:</label>
+                    <input type="text" id="courseId" name="courseId">
+                </div>
+                <div class="form-group">
+                    <label for="taskName">Task Name:</label>
+                    <input type="text" id="taskName" name="taskName">
+                </div>
+                <div class="form-group">
+                    <label for="dueDate">Due Date:</label>
+                    <input type="date" id="dueDate" name="dueDate">
+                </div>
+                <div class="form-group">
+                    <label for="otherDetails">Other Details:</label>
+                    <textarea id="otherDetails" name="otherDetails"></textarea>
+                </div>
+                <button type="submit" id="submitButton">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="./script.js" async defer></script>
+</body>
+</html>
